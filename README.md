@@ -26,6 +26,8 @@ Search products by name (case insensitive)
 The program runs entirely in the console
 
 Project Structure
+
+
 ProductManagement/
  └── src/
       └── Project/
@@ -53,6 +55,7 @@ java -cp src Project.ProductManagement
 
 Sample Program Output
 <details> <summary>Show Output</summary>
+ 
 === PRODUCT MANAGEMENT SYSTEM ===
 Type "exit" as company name to finish entering data.
 
