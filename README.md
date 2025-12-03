@@ -1,66 +1,58 @@
-ProductManagement
+Product Management System
 
+A simple Java console application for managing companies and their products.
+Created to demonstrate IntelliJ workflow, Git usage, object-oriented programming, and basic Java development.
 
+Project Purpose
 
- Project Purpose
-
-Although this repository contains a basic Java application, its primary purpose is to showcase:
+This repository contains a basic Java application, but its main goal is to demonstrate:
 
 Confident use of IntelliJ IDEA
-
-Proper project structuring and package organization
-
+Proper project structure and package organization
 Running, testing, and debugging inside the IDE
+Using Git version control within IntelliJ
+Creating a repository, committing changes, and publishing to GitHub
 
-Setting up Git version control within IntelliJ
+The project mirrors a real-world beginner development workflow.
 
-Creating a local repository, connecting it to GitHub, committing changes, and publishing the project directly from the IDE
+Features
 
-The project is therefore designed to reflect real-world IDE workflow experience rather than present a large or advanced Java system.
+Add multiple companies, each with multiple products
+Input product details such as name, code, and price
+Validate product codes in the format AA123456 (two letters followed by six digits)
+Display number of products produced by each company
+Find the most expensive product across all companies
+Search products by name (case insensitive)
+The program runs entirely in the console
 
- Features
-
-Add multiple companies, each with several products
-
-Input product details (name, code, price)
-
-Validate product codes (AA123456 format: 2 letters + 6 digits)
-
-Identify the most expensive product across all companies
-
-Search for products by name (case-insensitive)
-
-Fully console-based and simple to run
-
- Project Structure
-
+Project Structure
 ProductManagement/
+ └── src/
+      └── Project/
+           ├── Product.java
+           ├── Company.java
+           └── ProductManagement.java
 
-└── src/
-
-    └── Project/
-    
-        ├── Product.java
-        
-        ├── Company.java
-        
-        └── ProductManagement.java
-
- How to Run
+How to Run
 Running in IntelliJ IDEA
 
 Open the project in IntelliJ IDEA
-
-Navigate to:
-src/Project/ProductManagement.java
-
-Run the main method using the green Run button
+Navigate to src/Project/ProductManagement.java
+Run the main method using the Run button
 
 Running in Terminal
+
+Compile:
+
 javac src/Project/*.java
+
+
+Run:
+
 java -cp src Project.ProductManagement
 
- Sample Program Output
+Sample Program Output
+<details> <summary>Show Output</summary>
 === PRODUCT MANAGEMENT SYSTEM ===
 Type "exit" as company name to finish entering data.
 
@@ -82,10 +74,10 @@ Company "Apple" produces 2 products.
 Enter company name (or 'exit' to finish): exit
 
 Most expensive product overall:
-Company : Apple
-Product : MacBook
-Code    : MC123456
-Price   : 2000.0
+Company: Apple
+Product: MacBook
+Code: MC123456
+Price: 2000.0
 
 === PRODUCT SEARCH ===
 Type product names to search. Type "quit" to stop.
@@ -93,26 +85,19 @@ Type product names to search. Type "quit" to stop.
 Enter product name to search (or 'quit' to stop): quit
 Exiting program. Goodbye!
 
- Technologies Used
+</details>
+Technologies Used
 
 Java (JDK 24)
-
 IntelliJ IDEA
+Git and GitHub
 
-Git & GitHub
-
- Skills Demonstrated
+Skills Demonstrated
 
 Object-oriented programming
-
-Console-based interaction
-
+Console-based user interaction
 Input validation
-
 Basic search logic
-
-List & collection processing
-
-Real-world development workflow using IntelliJ IDEA
-
-Git version control and GitHub publishingng sorting options, supporting command line arguments or converting the program into a graphical application using JavaFX.
+List and collection processing
+Development workflow using IntelliJ
+Git version control and GitHub publishing
