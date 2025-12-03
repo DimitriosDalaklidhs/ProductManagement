@@ -1,5 +1,3 @@
-tell me!
-
 ProductManagement
 
 
@@ -13,7 +11,7 @@ ProductManagement
 
 
 
-📌 Project Purpose
+ Project Purpose
 
 Although this repository contains a basic Java application, its primary purpose is to showcase:
 
