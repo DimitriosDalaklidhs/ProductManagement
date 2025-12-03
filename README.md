@@ -1,10 +1,11 @@
-                                                                                              ProductManagement
+ProductManagement
 
 A simple Java console application for managing companies and their products.
 This project was intentionally designed not only to demonstrate Java fundamentals but also to showcase practical experience with IntelliJ IDEA as a professional development environment.
-Project Purpose:
-Although the repository contains a straightforward Java application, its primary purpose is to highlight confident and effective use of IntelliJ IDEA. The work on this project involved creating a structured Java project, managing packages, running and testing code inside the IDE, setting up version control, creating a local Git repository, connecting it to GitHub, committing changes, and publishing directly from IntelliJ. The emphasis is on demonstrating familiarity with IntelliJ IDEA and its workflow, reflecting real development practices and professional IDE usage rather than presenting a complex Java system.
 
+A Note on Project Purpose
+
+Although this repository contains a simple Java console application, the main intention behind the project is to demonstrate my ability to work confidently and efficiently with IntelliJ IDEA. The focus is not only on writing Java code but on showing practical experience with a professional development environment. Throughout this project I created a new project structure, configured packages, ran and tested the application inside the IDE, set up version control, created a local Git repository, connected it to GitHub, committed changes, and published the project directly through IntelliJ. The goal of this repository is therefore to highlight familiarity with IntelliJ IDEA and its workflow rather than to present a complex Java application.
  Features:
 
 This application allows multiple companies to be added, each with several products.
@@ -15,6 +16,7 @@ A search function allows users to look up products by name regardless of capital
 Interaction is entirely console based and simple to run.
 
 Project Structure
+
        ProductManagement/
  └── src/
      └── Project/
@@ -23,6 +25,7 @@ Project Structure
          └── ProductManagement.java
 
 How to Run
+
 Running inside IntelliJ IDEA
 
 Open the project in IntelliJ, navigate to
@@ -30,10 +33,12 @@ src/Project/ProductManagement.java
 and run the main method using the green run button.
 
 Running with terminal:
+
    javac src/Project/*.java
 java -cp src Project.ProductManagement
 
 Sample Program Output:
+
      === PRODUCT MANAGEMENT SYSTEM ===
 Type "exit" as company name to finish entering data.
 
@@ -68,7 +73,9 @@ Exiting program. Goodbye!
 Technologies Used:
 
 Java using JDK 24
+
 IntelliJ IDEA for development
+
 Git and GitHub for version control and project publishing
 
  Skills Demonstrated:
