@@ -2,15 +2,6 @@ ProductManagement
 
 
 
-
-
-
-
-
-
-
-
-
  Project Purpose
 
 Although this repository contains a basic Java application, its primary purpose is to showcase:
@@ -27,7 +18,7 @@ Creating a local repository, connecting it to GitHub, committing changes, and pu
 
 The project is therefore designed to reflect real-world IDE workflow experience rather than present a large or advanced Java system.
 
-✨ Features
+ Features
 
 Add multiple companies, each with several products
 
@@ -41,15 +32,21 @@ Search for products by name (case-insensitive)
 
 Fully console-based and simple to run
 
-📁 Project Structure
+ Project Structure
+
 ProductManagement/
+
 └── src/
+
     └── Project/
+    
         ├── Product.java
+        
         ├── Company.java
+        
         └── ProductManagement.java
 
-▶️ How to Run
+ How to Run
 Running in IntelliJ IDEA
 
 Open the project in IntelliJ IDEA
