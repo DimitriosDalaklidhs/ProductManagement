@@ -6,7 +6,7 @@ A simple Java console application for managing companies and their products, bui
 
 ## Purpose
 
-The code itself is straightforward, the real goal of this project is to practice a real-world beginner development workflow:
+The code itself is straightforward, the real goal of this project is to practice a real world beginner development workflow:
 
 - Confident use of IntelliJ IDEA (running, debugging, project structure)
 - Proper package organization
